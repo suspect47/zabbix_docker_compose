@@ -67,8 +67,8 @@ services:
       - zabbix-server
     links:
       - zabbix-server
-    ports:
-      - '10050:10050'
+#    ports:
+#      - '10050:10050'
     networks:
       - monitoring
 
